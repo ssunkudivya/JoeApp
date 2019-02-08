@@ -1,0 +1,54 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.display-linebreak {
+  white-space: pre-line;
+}
+body, h1, h2, h3, h4, h5, h6 {
+  font-size: 15px;
+  margin: 0;
+  line-height: 24px;
+}
+
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+body, html, #app, #app > div{
+  height: 100%;
+}
+
+a {
+  color: #ff4081;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.m-b-15 {
+  margin-bottom: 15px;
+}
+.active-link{
+    background-color: #333 !important;
+}
+.App-logo {
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-name: App-logo-spin;
+  height: 40px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(45deg) }
+}
